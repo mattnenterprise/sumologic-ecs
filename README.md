@@ -6,6 +6,7 @@ running the SumoLogic collector in ECS without baking the configuration into the
 This container can still be used exactly how the original collector works with a few additions.
 
 Environment Variables
+
 | Variable Name | Meaning |
 | --- | --- |
 | SUMO_GENERATE_USER_PROPERTIES | This should be set to false when getting the user properties file from S3. Otherwise the original collector will try to generate it overridding the downloaded file. |
